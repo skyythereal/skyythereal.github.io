@@ -1,16 +1,37 @@
-p{
-	width: 400px;
+h1{
+	font-family: basketville;
+	font-size: 45px;
+	font-weight: bold;
+	position: absolute;
+	top: 580px;
+	left: 100px;
 }
-.box {
-	width: 200px;
+p{
+	width: 700px;
+	font-family: basketville;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: left;
+	position: absolute;
+	top: 650px;
+	left: 100px;
+}
+.shape{
+	position: absolute;
+	background-color: rgb(145, 20, 20);
+}
+.allbox:hover .shape {
+background-color: rgb(235, 200, 210);
+}
+.box{
+	width: 210px;
 	height: 200px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 0px 110px 120px 0px;
 	position: absolute;
 	top: 100px;
-	left: 100px;
-
+	left: 70px;
 }
+
 .box2{
 	width: 50px;
 	height: 215px;
@@ -18,7 +39,7 @@ p{
 	border-radius: 0px 30px 0px 0px;
 	position: absolute;
 	top: 105px;
-	left: 90px;
+	left: 60px;
 }
 .box3{
 	width: 75px;
@@ -27,16 +48,15 @@ p{
 	border-radius: 0px 130px 150px 0px;
 	position: absolute;
 	top: 147px;
-	left: 185px;
+	left: 165px;
 }
 .box4{
 	width: 180px;
 	height: 190px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 0px 100px 0px 0px;
 	position: absolute;
 	top: 280px;
-	left: 140px;
+	left: 110px;
 }
 .box5{
 	width: 85px;
@@ -45,7 +65,7 @@ p{
 	border-radius: 0px 70px 0px 0px;
 	position: absolute;
 	top: 315px;
-	left: 185px;
+	left: 165px;
 }
 .box6{
 	width: 90px;
@@ -54,7 +74,7 @@ p{
 	border-radius: 0px 190px 0px 0px;
 	position: absolute;
 	top: 400px;
-	left: 105px;
+	left: 85px;
 	transform: rotate(25deg);
 }
 .box7{
@@ -64,7 +84,7 @@ p{
 	border-radius: 190px 0px 0px 0px;
 	position: absolute;
 	top: 400px;
-	left: 260px;
+	left: 240px;
 	transform: rotate(-25deg);
 }
 .box8{
@@ -74,25 +94,23 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 245px;
-	left: 185px;
+	left: 165px;
 }
 .box9{
 	width: 95px;
 	height: 370px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 100px;
-	left: 370px;
+	left: 330px;
 }
 .box10{
 	width: 45px;
 	height: 430px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 80px;
-	left: 520px;
+	left: 480px;
 	transform: rotate(-28deg);
 }
 .box11{
@@ -102,7 +120,7 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 100px;
-	left: 465px;
+	left: 425px;
 }
 .box12{
 	width: 20px;
@@ -111,7 +129,7 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 90px;
-	left: 450px;
+	left: 410px;
 }
 .box13{
 	width: 40px;
@@ -120,7 +138,7 @@ p{
 	border-radius: 0px 30px 0px 0px;
 	position: absolute;
 	top: 105px;
-	left: 370px;
+	left: 328px;
 }
 .box14{
 	width: 90px;
@@ -129,16 +147,15 @@ p{
 	border-radius: 0px 190px 0px 0px;
 	position: absolute;
 	top: 400px;
-	left: 385px;
+	left: 345px;
 	transform: rotate(25deg);
 }
 .box15{
 	width: 70px;
 	height: 60px;
-	background-color: rgb(100, 200, 255);
 	position: absolute;
 	top: 255px;
-	left: 470px;
+	left: 430px;
 }
 .box16{
 		width: 55px;
@@ -146,15 +163,14 @@ p{
 	background-color: rgb(255, 255, 255);
 	position: absolute;
 	top: 465px;
-	left: 608px;
+	left: 568px;
 }
 .box17{
 	width: 95px;
 	height: 370px;
-	background-color: rgb(100, 200, 255);
 	position: absolute;
 	top: 100px;
-	left: 700px;
+	left: 640px;
 }
 .box18{
 	width: 40px;
@@ -163,7 +179,7 @@ p{
 	border-radius: 0px 30px 0px 0px;
 	position: absolute;
 	top: 105px;
-	left: 700px;
+	left: 638px;
 }
 .box19{
 	width: 90px;
@@ -172,17 +188,16 @@ p{
 	border-radius: 0px 190px 0px 0px;
 	position: absolute;
 	top: 400px;
-	left: 715px;
+	left: 655px;
 	transform: rotate(25deg);
 }
 .box20{
 	width: 45px;
 	height: 430px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 80px;
-	left: 850px;
+	left: 790px;
 	transform: rotate(-28deg);
 }
 .box21{
@@ -192,7 +207,7 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 100px;
-	left: 795px;
+	left: 735px;
 }
 .box22{
 	width: 20px;
@@ -201,7 +216,7 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 90px;
-	left: 780px;
+	left: 720px;
 }
 .box23{
 	width: 57px;
@@ -209,24 +224,23 @@ p{
 	background-color: rgb(255, 255, 255);
 	position: absolute;
 	top: 465px;
-	left: 936px;
+	left: 876px;
 }
 .box24{
 	width: 95px;
 	height: 365px;
-	background-color: rgb(100, 200, 255);
 	position: absolute;
 	top: 100px;
-	left: 940px;
+	left: 880px;
 }
 .box25{
-	width: 40px;
+	width: 42px;
 	height: 365px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 30px 0px 0px 0px;
 	position: absolute;
 	top: 105px;
-	left: 995px;
+	left: 935px;
 }
 .box26{
 	width: 5px;
@@ -235,7 +249,7 @@ p{
 	border-radius: 0px 0px 0px 0px;
 	position: absolute;
 	top: 365px;
-	left: 935px;
+	left: 875px;
 }
 .box27{
 	width: 90px;
@@ -244,17 +258,16 @@ p{
 	border-radius: 190px 0px 0px 0px;
 	position: absolute;
 	top: 400px;
-	left: 930px;
+	left: 870px;
 	transform: rotate(-25deg);
 }
 .box28{
-	width: 270px;
+	width: 290px;
 	height: 370px;
-	background-color: rgb(100, 200, 255);
 	border-radius: 50%;
 	position: absolute;
 	top: 100px;
-	left: 1080px;
+	left: 1020px;
 }
 .box29{
 	width: 155px;
@@ -263,49 +276,212 @@ p{
 	border-radius: 50%;
 	position: absolute;
 	top: 160px;
-	left: 1140px;
+	left: 1080px;
 }
 .box30{
 	width: 80px;
 	height: 60px;
-	background-color: rgb(100, 200, 255);
 	position: absolute;
-	top: 255px;
-	left: 1220px;
+	top: 300px;
+	left: 1160px;
 }
 .box31{
 	width: 80px;
-	height: 50px;
+	height: 60px;
 	background-color: rgb(255, 255, 255);
 	position: absolute;
-	top: 205px;
-	left: 1270px;
+	top: 240px;
+	left: 1230px;
 }
 .box32{
-	width: 90px;
-	height: 55px;
+	width: 113px;
+	height: 98px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 105px 190px 0px 0px;
+	position: absolute;
+	top: 300px;
+	left: 1140px;
+	transform: rotate(90deg);
+}
+.box33{
+	width: 
+	height: 
+	position: absolute;
+	top: 190px;
+	left: 1240px;
+}
+.box34{
+	width: 
+	height: 
 	background-color: rgb(255, 255, 255);
 	border-radius: 0px 190px 0px 0px;
 	position: absolute;
-	top: 260px;
-	left: 1180px;
-	transform: rotate(0deg);
+	top: 150px;
+	left: 1265px;
+	transform: rotate(-180deg);
 }
-.box33{
-	width: 70px;
-	height: 50px;
-	background-color: rgb(100, 200, 255);
+.box35{
+	width: 80px;
+	height: 110px;
+	background-color: rgb(255, 255, 255);
 	position: absolute;
-	top: 155px;
-	left: 1277px;
+	top: 295px;
+	left: 1080px;
 }
-.box34{
-	width: 90px;
-	height: 70px;
-	background-color: rgb(255,255, 255);
+.box36{
+	width: 60px;
+	height: 150px;
+	position: absolute;
+	top: 280px;
+	left: 1020px;
+}
+.box37{
+	width: 130px;
+	height: 65px;
+	position: absolute;
+	top: 404.4px;
+	left: 1020px;
+}
+.box38{
+	width: 5px;
+	height: 107px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 0px 0px 0px;
+	position: absolute;
+	top: 363px;
+	left: 1080px;
+}
+.box39{
+	width: 91px;
+	height: 80px;
+	background-color: rgb(255, 255, 255);
 	border-radius: 0px 190px 0px 0px;
 	position: absolute;
-	top: 130px;
-	left: 1290px;
-	transform: rotate(-180deg);
+	top: 400px;
+	left: 999px;
+	transform: rotate(25deg);
+}
+.box40{
+	width: 5px;
+	height: 107px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 0px 0px 0px;
+	position: absolute;
+	top: 100px;
+	left: 165px;
+}
+.box41{
+	width: 95px;
+	height: 370px;
+	position: absolute;
+	top: 100px;
+	left: 1340px;
+}
+.box42{
+	width: 40px;
+	height: 365px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 30px 0px 0px;
+	position: absolute;
+	top: 105px;
+	left: 1338px;
+}
+.box43{
+	width: 90px;
+	height: 80px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 190px 0px 0px;
+	position: absolute;
+	top: 400px;
+	left: 1355px;
+	transform: rotate(25deg);
+}
+.box44{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	top: 100px;
+	left: 1440px;
+}
+.box45{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	top: 255px;
+	left: 1440px;
+}
+.box46{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	top: 410px;
+	left: 1440px;
+}
+.box47{
+	width: 110px;
+	height: 210px;
+	border-radius: 110px 0px 0px 110px;
+	position: absolute;
+	top: 105px;
+	left: 1620px;
+}
+.box48{
+	width: 140px;
+	height: 223px;
+	border-radius: 0px 110px 110px 0px;
+	position: absolute;
+	top: 250px;
+	left: 1700px;
+}
+.box49{
+	width: 160px;
+	height: 85px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 110px 110px 0px 100px;
+	position: absolute;
+	top: 165px;
+	left: 1680px;
+}
+.box50{
+	width: 160px;
+	height: 98px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 110px 110px 110px 0px;
+	position: absolute;
+	top: 312.2px;
+	left: 1620px;
+}
+.box55{
+	width: 100px;
+	height: 63px;
+	position: absolute;
+	top: 410px;
+	left: 1610px;
+}
+.box56{
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	top: 105px;
+	left: 1725px;
+}
+.box57{
+	width: 80px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 170px 0px 0px;
+	position: absolute;
+	top: 415px;
+	left: 1600px;
+	transform: rotate(0deg);
+}
+.box58{
+	width: 80px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0px 170px 0px 0px;
+	position: absolute;
+	top: 115px;
+	left: 1755px;
+	transform: rotate(-90deg);
 }
