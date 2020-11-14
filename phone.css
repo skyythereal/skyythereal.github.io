@@ -1,0 +1,149 @@
+h1{
+	position: absolute;
+	font-family: 'Playfair Display', serif;	font-size:90px;
+	top:-6px;
+	left: 700px;
+	color: rgb(95, 186, 223);
+}
+p{
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	top: 400px;
+	left: 700px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+.first{
+	font-weight: bold;
+}
+.second{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	top: 450px;
+	color: rgb(95, 186, 223);
+}
+.third{
+	font-size: 20px;
+	top: 510px;
+	color: white;
+}
+.fourth{
+	font-size: 20px;
+	top:550px;
+	left: 700px;
+	color: rgb(95, 186, 223);
+}
+.fivth{
+	font-size: 20px;
+	top: 590px;
+	left: 700px;
+	color: white;
+}
+.begin{
+font-size: 18px;
+top: 0px;
+left: 700px;
+color: white;
+}
+.sixth{
+	font-size: 20px;
+	top: 650px;
+	left: 700px;
+	color: rgb(95, 186, 223);
+}
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("screen.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.line{
+	position: absolute;
+	width: 160px;
+	height: 1px;
+	top: 400px;
+	left: 700px;
+	background-color: white;
+}
+
+@media (max-width: 375px){
+	h1{
+	position: absolute;
+	font-family: 'Playfair Display', serif;	font-size:55px;
+	top:0px;
+	left: 30px;
+	color: rgb(226, 237, 242);
+}
+p{
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	top: 280px;
+	left: 30px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+.first{
+	font-weight: bold;
+}
+.second{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	top: 345px;
+	color: rgb(95, 186, 223);
+}
+.third{
+	font-size: 20px;
+	top: 400px;
+	color: white;
+}
+.fourth{
+	font-size: 20px;
+	top:450px;
+	left: 30px;
+	color: rgb(95, 186, 223);
+}
+.fivth{
+	font-size: 20px;
+	top: 485px;
+	left: 30px;
+	color: white;
+}
+.begin{
+font-size: 18px;
+top: 0px;
+left: 30px;
+color: white;
+}
+.sixth{
+	font-size: 20px;
+	top: 570px;
+	left: 30px;
+	color: rgb(95, 186, 223);
+}
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("image.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.line{
+	position: absolute;
+	width: 160px;
+	height: 1px;
+	top: 260px;
+	left: 30px;
+	background-color: white;
+}
+}
