@@ -1,0 +1,17 @@
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("patternintro.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.first{
+	position:absolute;
+	font-size: 20px;
+	top: 700px;
+	left: 650px;
+	background-color: white;
+}
