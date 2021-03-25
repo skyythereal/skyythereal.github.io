@@ -47,7 +47,7 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: rgb(243, 128, 25);
+  background-color: rgb(157, 213, 43);
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -125,8 +125,11 @@ body {
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  background-image: url("./img/npc-sprite-after.png");
+  bottom: 163px;
+  right: 80px !important;
+  transition: bottom 400ms linear, right 400ms linear;
+  z-index: 2;
 }
 
 .preload-image {
@@ -137,6 +140,19 @@ body {
   pointer-events: none;
 }
 
+.second{
+  position: absolute;
+  bottom: 100px;
+  width: 100px;
+  height: 90px;
+  right: 100px;
+  background-image: url("./img/second.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
+
+}
 @keyframes spriteSheet {
   0% {
     background-position: 0% center;
